@@ -52,6 +52,8 @@ public class LonelyTwitterActivityUITest extends ActivityInstrumentationTestCase
         Tweet tweet = arrayAdapter.getItem(arrayAdapter.getCount()-1);
         assertEquals("This is not the text we expected!", tweet.getMessage(),
                 "test string");
+
+
     }
     //
     //
